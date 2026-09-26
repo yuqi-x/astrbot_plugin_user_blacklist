@@ -16,11 +16,28 @@
 
 > 📌 `blacklist.json` 是你的**本地名单文件**，已被 `.gitignore` 排除、不会上传到仓库（仓库里只有一份 `blacklist.json.example` 示例）。因为这个文件里往往会写真实 QQ 号，不适合公开。
 
-## 📦 安装
+## 🚀 快速开始
 
-1. 把 `astrbot_plugin_user_blacklist` 整个文件夹放进 `AstrBot/data/plugins/` 目录；
-2. 重启 AstrBot，或在**面板 → 插件管理**里重载插件；
-3. 打开该插件的配置，在「屏蔽名单」中填入要屏蔽的 QQ 号并保存。
+### 方式一：插件市场（推荐）
+
+在 **AstrBot 管理面板 → 插件市场** 搜索 `astrbot_plugin_user_blacklist` 安装。
+
+> 插件市场按 GitHub topic 索引，刚发布时可能需要几分钟才同步出来。
+
+### 方式二：Git 克隆
+
+```bash
+cd AstrBot/data/plugins
+git clone https://github.com/yuqi-x/astrbot_plugin_user_blacklist.git
+```
+
+### 方式三：手动下载
+
+从 [仓库首页](https://github.com/yuqi-x/astrbot_plugin_user_blacklist) 下载 ZIP 解压，把 `astrbot_plugin_user_blacklist` 文件夹整个放进 `AstrBot/data/plugins/`。
+
+---
+
+装好后**重启 AstrBot**，或在 **面板 → 插件管理** 里重载插件；然后打开该插件的配置，在「屏蔽名单」中填入要屏蔽的 QQ 号并保存即可。
 
 ## ⚙️ 配置项
 
