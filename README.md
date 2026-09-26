@@ -20,9 +20,9 @@
 
 ### 方式一：插件市场（推荐）
 
-在 **AstrBot 管理面板 → 插件市场** 搜索 `astrbot_plugin_user_blacklist` 安装。
+在 **AstrBot 管理面板 → 插件市场** 搜索 `astrbot_plugin_user_blacklist`，点安装即可。
 
-> 插件市场按 GitHub topic 索引，刚发布时可能需要几分钟才同步出来。
+> ℹ️ 插件市场的内容由 [AstrBot Cloud](https://cloud.astrbot.app/) 收录，插件需先在那里发布才会出现在市场里；暂时搜不到的话，请用下面的方式二或方式三。
 
 ### 方式二：Git 克隆
 

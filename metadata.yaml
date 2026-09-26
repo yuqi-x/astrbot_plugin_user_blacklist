@@ -7,3 +7,8 @@ version: 1.0.0
 author: 枝祈
 repo: https://github.com/yuqi-x/astrbot_plugin_user_blacklist
 astrbot_version: ">=4.0.0"
+tags:
+  - 管理
+  - 屏蔽
+  - 黑名单
+  - 工具
