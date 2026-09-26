@@ -14,6 +14,8 @@
 | 📝 拦截日志 | 可选，每次拦截在日志里留痕，方便确认生效 |
 | 🔥 免重载热更新 | 直接编辑插件目录的 `blacklist.json`，保存即生效，不用重载插件 |
 
+> 📌 `blacklist.json` 是你的**本地名单文件**，已被 `.gitignore` 排除、不会上传到仓库（仓库里只有一份 `blacklist.json.example` 示例）。因为这个文件里往往会写真实 QQ 号，不适合公开。
+
 ## 📦 安装
 
 1. 把 `astrbot_plugin_user_blacklist` 整个文件夹放进 `AstrBot/data/plugins/` 目录；

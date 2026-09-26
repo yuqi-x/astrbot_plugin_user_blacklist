@@ -8,3 +8,6 @@ venv/
 .DS_Store
 backup/
 *.bak
+
+# 本地屏蔽名单（含真实 QQ 号，不入库）
+blacklist.json
