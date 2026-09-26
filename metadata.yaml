@@ -5,5 +5,5 @@ help: 打开本插件配置，在「屏蔽名单」里填入 QQ 号（一行一�
 short_desc: 填入 QQ 号即可屏蔽该用户（群聊 + 私聊），静默忽略不回复。
 version: 1.0.0
 author: 枝祈
-repo: ""
+repo: https://github.com/yuqi-x/astrbot_plugin_user_blacklist
 astrbot_version: ">=4.0.0"
