@@ -1,0 +1,43 @@
+{
+  "enable": {
+    "description": "启用黑名单",
+    "type": "bool",
+    "hint": "总开关。关闭后名单里所有用户都不再被屏蔽。",
+    "default": true
+  },
+  "blacklist": {
+    "description": "屏蔽名单（QQ 号 / 用户 ID）",
+    "type": "list",
+    "hint": "在这里填入要屏蔽的 QQ 号，一行一个。命中后该用户的消息（群聊、私聊）会被静默忽略，机器人不会回复，也不会消耗大模型额度。",
+    "default": []
+  },
+  "scope": {
+    "description": "生效范围",
+    "type": "string",
+    "hint": "both = 群聊和私聊都屏蔽（默认）；group = 只屏蔽群聊；private = 只屏蔽私聊。",
+    "default": "both",
+    "options": [
+      "both",
+      "group",
+      "private"
+    ]
+  },
+  "ignore_admin": {
+    "description": "不屏蔽管理员",
+    "type": "bool",
+    "hint": "开启后，如果名单里的 ID 同时是 AstrBot 管理员，则不会屏蔽（防止把自己锁在门外）。",
+    "default": true
+  },
+  "notice": {
+    "description": "拒绝提示语（可留空）",
+    "type": "string",
+    "hint": "留空 = 完全静默（默认，对方察觉不到）。填写后机器人会用这句话回复一次，随后仍不进入大模型。",
+    "default": ""
+  },
+  "log_block": {
+    "description": "记录拦截日志",
+    "type": "bool",
+    "hint": "开启后每次拦截都会在 AstrBot 日志里留一条记录，便于确认是否生效。",
+    "default": true
+  }
+}
